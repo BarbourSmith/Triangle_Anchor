@@ -23,6 +23,10 @@
           "ioValue": null
         },
         {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
           "name": "Shape 4",
           "ioValue": null
         }
@@ -1596,8 +1600,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.42658730158730157,
-      "y": 0.1949860724233983,
+      "x": 0.29034391534391535,
+      "y": 0.07799442896935933,
       "uniqueID": "id-1018",
       "name": "Wood Screws",
       "topLevel": false,
@@ -1951,8 +1955,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.45238095238095233,
-          "y": 0.39275766016713093,
+          "x": 0.43253968253968256,
+          "y": 0.18384401114206128,
           "uniqueID": "id-1090",
           "ioValues": [
             {
@@ -2220,13 +2224,17 @@
             {
               "name": "Shape 1",
               "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.43320105820105814,
-          "y": 0.6740947075208913,
+          "x": 0.43716931216931215,
+          "y": 0.415041782729805,
           "uniqueID": "id-1156",
           "ioValues": [
             {
@@ -2247,8 +2255,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.5588624338624338,
-          "y": 0.7242339832869081,
+          "x": 0.5641534391534392,
+          "y": 0.7214484679665739,
           "uniqueID": "id-1223",
           "name": "Linear-Pattern",
           "ioValues": [
@@ -2258,19 +2266,18 @@
             },
             {
               "name": "distX",
-              "ioValue": 10
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "distY",
-              "ioValue": 10
+              "ioValue": 20,
+              "currentEquation": "20"
             },
             {
               "name": "distZ",
-              "ioValue": 10
-            },
-            {
-              "name": "Geometry",
-              "ioValue": 10
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ],
           "topLevel": false,
@@ -2320,24 +2327,20 @@
               "uniqueID": "id-1216",
               "ioValues": [
                 {
-                  "name": "Shape",
-                  "ioValue": 10
-                },
-                {
                   "name": "Number",
                   "ioValue": 4
                 },
                 {
                   "name": "distX",
-                  "ioValue": 10
+                  "ioValue": 0
                 },
                 {
                   "name": "distY",
-                  "ioValue": 10
+                  "ioValue": 20
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "codeVersion": 1,
@@ -2489,6 +2492,27 @@
           },
           "unitsKey": "MM",
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Move",
+          "x": 0.44378306878306883,
+          "y": 0.7688022284122563,
+          "uniqueID": "id-1265",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -7.787,
+              "currentEquation": "-7.787"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 52.787
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2523,6 +2547,11 @@
           "ap2ID": "id-1156"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1085",
+          "ap2ID": "id-1265"
+        },
+        {
           "ap2Name": "Geometry",
           "ap1ID": "id-1090",
           "ap2ID": "id-1118"
@@ -2536,6 +2565,16 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1152",
           "ap2ID": "id-1020"
+        },
+        {
+          "ap2Name": "Geometry",
+          "ap1ID": "id-1156",
+          "ap2ID": "id-1223"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-1223",
+          "ap2ID": "id-1152"
         }
       ],
       "fileTypeVersion": 1
@@ -2558,6 +2597,27 @@
           "name": "z-axis degrees",
           "ioValue": 90,
           "currentEquation": "90"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.42791005291005285,
+      "y": 0.18662952646239553,
+      "uniqueID": "id-1259",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 8,
+          "currentEquation": "8"
         }
       ]
     }
@@ -2599,8 +2659,18 @@
       "ap2ID": "id-589"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1018",
+      "ap2ID": "id-1259"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1096",
+      "ap2ID": "id-50"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-1259",
       "ap2ID": "id-50"
     }
   ],
