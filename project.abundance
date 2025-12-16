@@ -14,8 +14,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2195767195767196,
-      "y": 0.2116991643454039,
+      "x": 0.15343915343915343,
+      "y": 0.17827298050139276,
       "uniqueID": "id-4",
       "name": "Base",
       "topLevel": false,
@@ -894,8 +894,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15343915343915343,
-      "y": 0.7688022284122563,
+      "x": 0.1474867724867725,
+      "y": 0.5153203342618384,
       "uniqueID": "id-54",
       "name": "Bolt",
       "topLevel": false,
@@ -976,19 +976,15 @@
               "ioValue": null
             },
             {
-              "name": "Shape 3",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 4",
+              "name": "Shape 5",
               "ioValue": null
             }
           ]
         },
         {
           "atomType": "RegularPolygon",
-          "x": 0.48677248677248675,
-          "y": 0.8746518105849581,
+          "x": 0.4920634920634921,
+          "y": 0.8885793871866295,
           "uniqueID": "id-175",
           "ioValues": [
             {
@@ -997,8 +993,8 @@
             },
             {
               "name": "diameter",
-              "ioValue": 16,
-              "currentEquation": "16"
+              "ioValue": 18,
+              "currentEquation": "18"
             }
           ]
         },
@@ -1010,7 +1006,8 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 5,
+              "currentEquation": "5"
             }
           ]
         },
@@ -1034,6 +1031,76 @@
               "currentEquation": "30"
             }
           ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.4834656084656085,
+          "y": 0.2590529247910863,
+          "uniqueID": "id-202",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-extrude-polysides-9-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0-0-30",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Color",
+          "x": 0.6064814814814814,
+          "y": 0.2479108635097493,
+          "uniqueID": "id-207",
+          "selectedColor": "Clay"
         }
       ],
       "allConnectors": [
@@ -1048,9 +1115,9 @@
           "ap2ID": "id-159"
         },
         {
-          "ap2Name": "Shape 3",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-155",
-          "ap2ID": "id-166"
+          "ap2ID": "id-202"
         },
         {
           "ap2Name": "geometry",
@@ -1078,8 +1145,18 @@
           "ap2ID": "id-183"
         },
         {
-          "ap2Name": "Shape 4",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-183",
+          "ap2ID": "id-202"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-202",
+          "ap2ID": "id-207"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-207",
           "ap2ID": "id-166"
         }
       ],
