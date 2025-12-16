@@ -47,8 +47,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7711640211640212,
-      "y": 0.8523676880222841,
+      "x": 0.7791068580542264,
+      "y": 0.8607242339832869,
       "uniqueID": "id-197",
       "ioValues": [
         {
@@ -107,8 +107,7 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 45
         }
       ]
     },
