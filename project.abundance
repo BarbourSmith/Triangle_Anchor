@@ -13,6 +13,57 @@
       "uniqueID": "id-2"
     },
     {
+      "atomType": "Assembly",
+      "x": 0.5304232804232805,
+      "y": 0.40111420612813375,
+      "uniqueID": "id-50",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.6574074074074074,
+      "y": 0.7548746518105849,
+      "uniqueID": "id-194",
+      "name": "Extract Tag",
+      "tag": "Plastic",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7711640211640212,
+      "y": 0.8523676880222841,
+      "uniqueID": "id-197",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Triangle_Anchor",
+          "currentEquation": "Triangle_Anchor"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Triangle_Anchor"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.15343915343915343,
       "y": 0.17827298050139276,
@@ -34,13 +85,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "y length",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             }
           ]
         },
@@ -60,8 +109,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 45,
-              "currentEquation": "45"
+              "ioValue": 45
             }
           ]
         },
@@ -73,13 +121,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 50
             },
             {
               "name": "yDist",
-              "ioValue": -50,
-              "currentEquation": "-50"
+              "ioValue": -50
             },
             {
               "name": "zDist",
@@ -101,8 +147,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 4,
-              "currentEquation": "4"
+              "ioValue": 4
             }
           ]
         },
@@ -126,13 +171,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 60,
-              "currentEquation": "60"
+              "ioValue": 60
             },
             {
               "name": "yDist",
-              "ioValue": 8,
-              "currentEquation": "8"
+              "ioValue": 8
             },
             {
               "name": "zDist",
@@ -152,8 +195,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 22,
-              "currentEquation": "22"
+              "ioValue": 22
             },
             {
               "name": "zDist",
@@ -342,8 +384,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -90,
-              "currentEquation": "-90"
+              "ioValue": -90
             },
             {
               "name": "zDist",
@@ -359,8 +400,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 22,
-              "currentEquation": "22"
+              "ioValue": 22
             },
             {
               "name": "yDist",
@@ -380,8 +420,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 30
             }
           ]
         },
@@ -401,8 +440,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 25,
-              "currentEquation": "25"
+              "ioValue": 25
             }
           ]
         },
@@ -489,8 +527,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 1,
-              "currentEquation": "1"
+              "ioValue": 1
             }
           ]
         },
@@ -502,13 +539,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -15,
-              "currentEquation": "-15"
+              "ioValue": -15
             },
             {
               "name": "yDist",
-              "ioValue": -40,
-              "currentEquation": "-40"
+              "ioValue": -40
             },
             {
               "name": "zDist",
@@ -618,13 +653,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             },
             {
               "name": "yDist",
-              "ioValue": 15,
-              "currentEquation": "15"
+              "ioValue": 15
             },
             {
               "name": "zDist",
@@ -648,8 +681,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 4,
-              "currentEquation": "4"
+              "ioValue": 4
             }
           ]
         },
@@ -877,22 +909,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Assembly",
-      "x": 0.5304232804232805,
-      "y": 0.40111420612813375,
-      "uniqueID": "id-50",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
       "x": 0.1474867724867725,
       "y": 0.5153203342618384,
@@ -914,8 +930,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 10
             }
           ]
         },
@@ -927,8 +942,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10.5,
-              "currentEquation": "10.5"
+              "ioValue": 10.5
             }
           ]
         },
@@ -940,8 +954,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 30
             }
           ]
         },
@@ -953,8 +966,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 30
             }
           ]
         },
@@ -993,8 +1005,7 @@
             },
             {
               "name": "diameter",
-              "ioValue": 18,
-              "currentEquation": "18"
+              "ioValue": 18
             }
           ]
         },
@@ -1006,8 +1017,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 5
             }
           ]
         },
@@ -1027,8 +1037,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 30
             }
           ]
         },
@@ -1161,49 +1170,9 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.6574074074074074,
-      "y": 0.7548746518105849,
-      "uniqueID": "id-194",
-      "name": "Extract Tag",
-      "tag": "Plastic",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7711640211640212,
-      "y": 0.8523676880222841,
-      "uniqueID": "id-197",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Triangle_Anchor",
-          "currentEquation": "Triangle_Anchor"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Triangle_Anchor"
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-4",
-      "ap2ID": "id-50"
-    },
     {
       "ap2Name": "number or geometry",
       "ap1ID": "id-50",
@@ -1215,14 +1184,19 @@
       "ap2ID": "id-194"
     },
     {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-54",
-      "ap2ID": "id-50"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-194",
       "ap2ID": "id-197"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-4",
+      "ap2ID": "id-50"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-54",
+      "ap2ID": "id-50"
     }
   ],
   "unitsKey": "MM",
