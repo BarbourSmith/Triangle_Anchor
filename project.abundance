@@ -1,13 +1,109 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Triangle_Anchor",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Triangle_Anchor",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.27645502645502645,
+      "y": 0.4818941504178273,
+      "uniqueID": "id-4",
+      "name": "Base",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-6"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.1752645502645503,
+          "y": 0.5348189415041783,
+          "uniqueID": "id-8",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 30,
+              "currentEquation": "30"
+            },
+            {
+              "name": "y length",
+              "ioValue": 30,
+              "currentEquation": "30"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.27314814814814814,
+          "y": 0.2813370473537604,
+          "uniqueID": "id-12",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -20,
+              "currentEquation": "-20"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 20,
+              "currentEquation": "20"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.29034391534391535,
+          "y": 0.6128133704735376,
+          "uniqueID": "id-18",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": -15
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8",
+          "ap2ID": "id-12"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8",
+          "ap2ID": "id-18"
+        }
+      ],
+      "fileTypeVersion": 1
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
