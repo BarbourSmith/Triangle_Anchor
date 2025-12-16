@@ -1319,8 +1319,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.42503987240829344,
-          "y": 0.38718662952646243,
+          "x": 0.43187830687830686,
+          "y": 0.39275766016713093,
           "uniqueID": "id-542",
           "ioValues": [
             {
@@ -1335,20 +1335,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.46570972886762363,
-          "y": 0.6852367688022285,
-          "uniqueID": "id-547",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 22
-            }
-          ]
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.44497607655502397,
-          "y": 0.8997214484679666,
+          "x": 0.4464285714285714,
+          "y": 0.9247910863509751,
           "uniqueID": "id-550",
           "ioValues": [
             {
@@ -1359,8 +1347,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5661881977671451,
-          "y": 0.7827298050139275,
+          "x": 0.5264550264550264,
+          "y": 0.7688022284122563,
           "uniqueID": "id-553",
           "ioValues": [
             {
@@ -1388,33 +1376,6 @@
               "name": "Shape 1",
               "ioValue": {
                 "geometry": "move-circle-0.5-100--120-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": {
-                "geometry": "circle-11",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1467,6 +1428,33 @@
             },
             {
               "name": "Shape 4",
+              "ioValue": {
+                "geometry": "circle-11",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 5",
               "ioValue": null
             }
           ]
@@ -1531,18 +1519,15 @@
           "selectedColor": "Keep Out"
         },
         {
-          "atomType": "Assembly",
-          "x": 0.8181818181818181,
-          "y": 0.2646239554317549,
-          "uniqueID": "id-584",
+          "atomType": "Circle",
+          "x": 0.5046296296296297,
+          "y": 0.467966573816156,
+          "uniqueID": "id-1681",
           "ioValues": [
             {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
+              "name": "diameter",
+              "ioValue": 22,
+              "currentEquation": "22"
             }
           ]
         }
@@ -1567,16 +1552,6 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-536",
           "ap2ID": "id-542"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-542",
-          "ap2ID": "id-584"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-547",
-          "ap2ID": "id-559"
         },
         {
           "ap2Name": "geometry",
@@ -1614,14 +1589,14 @@
           "ap2ID": "id-581"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "number or geometry",
           "ap1ID": "id-581",
-          "ap2ID": "id-584"
+          "ap2ID": "id-356"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-584",
-          "ap2ID": "id-356"
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-1681",
+          "ap2ID": "id-559"
         }
       ],
       "fileTypeVersion": 1
@@ -2913,6 +2888,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1018",
       "ap2ID": "id-1259"
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-1673",
+      "ap2ID": "id-354"
     }
   ],
   "unitsKey": "MM",
