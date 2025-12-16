@@ -1191,7 +1191,7 @@
     },
     {
       "atomType": "Import",
-      "x": 0.2189153439153439,
+      "x": 0.082010582010582,
       "y": 0.8328690807799443,
       "uniqueID": "id-368",
       "fileName": "Belt End.step",
@@ -1200,6 +1200,27 @@
       "repoOwner": "BarbourSmith",
       "repoName": "Triangle_Anchor",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Move",
+      "x": 0.20304232804232802,
+      "y": 0.8802228412256267,
+      "uniqueID": "id-370",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": -10,
+          "currentEquation": "-10"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1227,6 +1248,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-54",
       "ap2ID": "id-50"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-368",
+      "ap2ID": "id-370"
     }
   ],
   "unitsKey": "MM",
