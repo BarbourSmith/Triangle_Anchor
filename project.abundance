@@ -1170,6 +1170,36 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.19059011164274323,
+      "y": 0.8245125348189415,
+      "uniqueID": "id-354",
+      "name": "Belt End",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-356"
+        },
+        {
+          "atomType": "Import",
+          "x": 0.22807017543859648,
+          "y": 0.5710306406685237,
+          "uniqueID": "id-358",
+          "fileName": "Belt End.step",
+          "name": "Import",
+          "type": "STEP",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Triangle_Anchor",
+          "SVGwidth": 10
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
