@@ -2,5 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|New Item|8|$0.00||
-|Total: |8|$0.00| |
+|New Item|11|$0.00||
+|Total: |11|$0.00| |
