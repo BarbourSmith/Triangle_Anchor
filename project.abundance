@@ -29,6 +29,10 @@
         {
           "name": "Shape 4",
           "ioValue": null
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": null
         }
       ]
     },
@@ -89,8 +93,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.4915470494417863,
-      "y": 0.7910863509749304,
+      "x": 0.4914021164021164,
+      "y": 0.7743732590529249,
       "uniqueID": "id-595",
       "ioValues": [
         {
@@ -103,7 +107,8 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": -45
+          "ioValue": 45,
+          "currentEquation": "45"
         }
       ]
     },
@@ -143,9 +148,21 @@
         },
         {
           "name": "zDist",
-          "ioValue": 7
+          "ioValue": 6
         }
       ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0.09656084656084656,
+      "y": 0.83008356545961,
+      "uniqueID": "id-1673",
+      "fileName": "Belt End.step",
+      "name": "Import",
+      "type": "STEP",
+      "repoOwner": "BarbourSmith",
+      "repoName": "Triangle_Anchor",
+      "SVGwidth": 10
     },
     {
       "atomType": "Molecule",
@@ -1526,8 +1543,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 22,
-              "currentEquation": "22"
+              "ioValue": 22
             }
           ]
         }
@@ -1603,8 +1619,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.29034391534391535,
-      "y": 0.07799442896935933,
+      "x": 0.2943121693121693,
+      "y": 0.0947075208913649,
       "uniqueID": "id-1018",
       "name": "Wood Screws",
       "topLevel": false,
@@ -1629,13 +1645,13 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.14417989417989419,
-          "y": 0.7938718662952646,
+          "x": 0.1474867724867725,
+          "y": 0.7883008356545962,
           "uniqueID": "id-1078",
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 12
             }
           ]
         },
@@ -2518,23 +2534,19 @@
           "ioValues": [
             {
               "name": "Number",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3
             },
             {
               "name": "distX",
-              "ioValue": 30.229,
-              "currentEquation": "30.229"
+              "ioValue": 30.229
             },
             {
               "name": "distY",
-              "ioValue": -30.229,
-              "currentEquation": "-30.229"
+              "ioValue": -30.229
             },
             {
               "name": "distZ",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -2824,18 +2836,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Import",
-      "x": 0.09656084656084656,
-      "y": 0.83008356545961,
-      "uniqueID": "id-1673",
-      "fileName": "Belt End.step",
-      "name": "Import",
-      "type": "STEP",
-      "repoOwner": "BarbourSmith",
-      "repoName": "Triangle_Anchor",
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [
@@ -2860,6 +2860,11 @@
       "ap2ID": "id-595"
     },
     {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-595",
+      "ap2ID": "id-50"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1096",
       "ap2ID": "id-50"
@@ -2868,6 +2873,11 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-1259",
       "ap2ID": "id-50"
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-1673",
+      "ap2ID": "id-354"
     },
     {
       "ap2Name": "geometry",
@@ -2888,11 +2898,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1018",
       "ap2ID": "id-1259"
-    },
-    {
-      "ap2Name": "input",
-      "ap1ID": "id-1673",
-      "ap2ID": "id-354"
     }
   ],
   "unitsKey": "MM",
