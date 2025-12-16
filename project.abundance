@@ -1173,8 +1173,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.19059011164274323,
-      "y": 0.8245125348189415,
+      "x": 0.19537480063795853,
+      "y": 0.8272980501392758,
       "uniqueID": "id-354",
       "name": "Belt End",
       "topLevel": false,
@@ -1186,10 +1186,31 @@
           "uniqueID": "id-356"
         },
         {
+          "atomType": "Move",
+          "x": 0.3802910052910053,
+          "y": 0.5515320334261838,
+          "uniqueID": "id-360",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10,
+              "currentEquation": "10"
+            }
+          ]
+        },
+        {
           "atomType": "Import",
-          "x": 0.22807017543859648,
-          "y": 0.5710306406685237,
-          "uniqueID": "id-358",
+          "x": 0.16666666666666666,
+          "y": 0.41782729805013924,
+          "uniqueID": "id-366",
           "fileName": "Belt End.step",
           "name": "Import",
           "type": "STEP",
@@ -1198,7 +1219,13 @@
           "SVGwidth": 10
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-366",
+          "ap2ID": "id-360"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
