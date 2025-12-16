@@ -68,16 +68,44 @@
       "partName": "Triangle_Anchor"
     },
     {
-      "atomType": "Import",
-      "x": 0.0861244019138756,
-      "y": 0.8440111420612814,
-      "uniqueID": "id-368",
-      "fileName": "Belt End.step",
-      "name": "Import",
-      "type": "STEP",
-      "repoOwner": "BarbourSmith",
-      "repoName": "Triangle_Anchor",
-      "SVGwidth": 10
+      "atomType": "Move",
+      "x": 0.3915470494417863,
+      "y": 0.7910863509749304,
+      "uniqueID": "id-589",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 15
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.4915470494417863,
+      "y": 0.7910863509749304,
+      "uniqueID": "id-595",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": -45
+        }
+      ]
     },
     {
       "atomType": "Molecule",
@@ -1204,7 +1232,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.31197771587743733,
+          "y": 0.15384615384615385,
           "uniqueID": "id-527",
           "name": "input",
           "type": "geometry"
@@ -1225,8 +1253,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -8,
-              "currentEquation": "-8"
+              "ioValue": -8
             }
           ]
         },
@@ -1238,8 +1265,7 @@
           "ioValues": [
             {
               "name": "x-axis degrees",
-              "ioValue": 180,
-              "currentEquation": "180"
+              "ioValue": 180
             },
             {
               "name": "y-axis degrees",
@@ -1275,8 +1301,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 22,
-              "currentEquation": "22"
+              "ioValue": 22
             }
           ]
         },
@@ -1288,8 +1313,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 1,
-              "currentEquation": "1"
+              "ioValue": 1
             }
           ]
         },
@@ -1301,13 +1325,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "yDist",
-              "ioValue": -120,
-              "currentEquation": "-120"
+              "ioValue": -120
             },
             {
               "name": "zDist",
@@ -1417,13 +1439,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "yDist",
-              "ioValue": 120,
-              "currentEquation": "120"
+              "ioValue": 120
             },
             {
               "name": "zDist",
@@ -1439,8 +1459,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 18,
-              "currentEquation": "18"
+              "ioValue": 18
             }
           ]
         },
@@ -1460,8 +1479,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -9,
-              "currentEquation": "-9"
+              "ioValue": -9
             }
           ]
         },
@@ -1487,6 +1505,18 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Import",
+          "x": 0.11642743221690591,
+          "y": 0.7994428969359332,
+          "uniqueID": "id-807",
+          "fileName": "Belt End_copy1.step",
+          "name": "Import",
+          "type": "STEP",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Triangle_Anchor",
+          "SVGwidth": 10
         }
       ],
       "allConnectors": [
@@ -1567,48 +1597,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.3915470494417863,
-      "y": 0.7910863509749304,
-      "uniqueID": "id-589",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 15,
-          "currentEquation": "15"
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.4915470494417863,
-      "y": 0.7910863509749304,
-      "uniqueID": "id-595",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": -45,
-          "currentEquation": "-45"
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -1628,9 +1616,14 @@
       "ap2ID": "id-197"
     },
     {
-      "ap2Name": "input",
-      "ap1ID": "id-368",
-      "ap2ID": "id-354"
+      "ap2Name": "geometry",
+      "ap1ID": "id-589",
+      "ap2ID": "id-595"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-595",
+      "ap2ID": "id-50"
     },
     {
       "ap2Name": "Shape 1",
@@ -1646,16 +1639,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-354",
       "ap2ID": "id-589"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-589",
-      "ap2ID": "id-595"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-595",
-      "ap2ID": "id-50"
     }
   ],
   "unitsKey": "MM",
