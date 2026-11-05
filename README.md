@@ -2,7 +2,7 @@
 
 # Triangle_Anchor
 
-![](/project.svg)
+![](/project.png)
 
 
 
