@@ -1440,8 +1440,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7791,
-      "y": 0.8607,
+      "x": 0.7851,
+      "y": 0.8169,
       "uniqueID": "id-197",
       "ioValues": [
         {
@@ -1450,8 +1450,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
         },
         {
           "name": "Resolution (dpi)",
@@ -1467,7 +1467,7 @@
           "currentEquation": "Triangle_Anchor"
         }
       ],
-      "type": null,
+      "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Triangle_Anchor"
